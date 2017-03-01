@@ -4,11 +4,11 @@
 
 // make a button that gets the items when we click on it
 
-const getItems = () => ({
+export const getItems = () => ({
   type: "GET_ITEMS"
 })
 
-const receiveItems = (items) => ({
+export const receiveItems = (items) => ({
   type: "RECEIVE_ITEMS",
   items: items
 })

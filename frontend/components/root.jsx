@@ -1,5 +1,6 @@
 // Root provides the store information to all the children components
 
+import React from 'react';
 import { Provider } from 'react-redux';
 import App from './app';
 

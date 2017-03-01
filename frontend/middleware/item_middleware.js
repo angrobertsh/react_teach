@@ -1,5 +1,5 @@
 import * as ACTIONS from "../actions/item_actions";
-import * as UTILS from "../util/items_util";
+import * as UTILS from "../utils/item_util";
 
 const preprocessData = (data) => {
   let itemsObj = JSON.parse(data);
@@ -21,4 +21,4 @@ const ItemMiddleware = ({state, dispatch}) => next => action => {
   }
 }
 
-export default ItemMiddleWare;
+export default ItemMiddleware;
